@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Sedgwick+Ave+Display&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  max-width: 1543px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > .container {
+  background-color: rgba(222, 213, 224, 0.526);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+/* .container {
+  
+} */
+
+.container .head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+  /* padding-bottom: 40px; */
+}
+
+.container .head > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3%;
+}
+
+.container .head > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.container .wrap-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .wrap-menu .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  /* padding-bottom: 40px; */
+}
+
+.container .wrap-menu .menu > h1 {
+  margin: 0px 55px;
+  font-size: 30px;
+}
+
+.container .menu > p {
+  margin: 0px 55px;
+}
+
+.container .wrap-menu .menu > a {
+  padding: 10px;
+  background-color: rgb(37, 8, 8);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container .wrap-menu .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .wrap-menu .img > img {
+  width: 80%;
+}
+
+.product {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.product .container .img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.product .container .img > img {
+  box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.04);
+  width: 100%;
+}
+
+.product .container .img > p {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 3%;
+  color: black;
+  font-weight: 700;
+  left: 34%;
+}
+
+.product .container .img > #dua {
+  /* position: absolute; */
+  top: 28%;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  left: 32%;
+}
+.product .container .img > #tiga {
+  /* position: absolute; */
+  top: 54%;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  /* left: 32%; */
+}
+.product .container .img > #empat {
+  /* position: absolute; */
+  top: 80%;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.product .container .product-populer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.product .container .product-populer .wrap-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.product .container .product-populer .t {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-populer h2 {
+  font-weight: 800;
+}
+.product-populer a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product .container .product-populer .wrap-card .card {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  gap: 10px;
+}
+
+.product .container .product-populer .card > img {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.product .container .product-populer .card > .price {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 10px;
+}
+
+.product .container .product-populer .card .price > del {
+  margin-top: 5px;
+  font-size: small;
+}
+
+.testimoni {
+  background-image: url(/AFIQ/muhammad-afiq-yunanto-sas-project/aset/Assets/bgTesti-furnitur.png);
+  background-position: 100%;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.testimoni .test .orang > img {
+  border-radius: 100px;
+  height: 60px;
+  width: 50px;
+}
+.testimoni .test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 20px;
+  margin: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+footer hr {
+  width: 100%;
+}
+
+footer .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .text > img {
+  width: 30%;
+}
+
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer .sosmed > i {
+  background-color: rgb(76, 20, 20);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.teks {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  header .container .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+  }
+
+  header .container .head > h2 > i {
+    display: none;
+  }
+
+  header .container .head .teks {
+    display: flex;
+    gap: 20px;
+    margin-right: 5%;
+  }
+
+  header .container .wrap-menu {
+    display: flex;
+    flex-direction: row;
+    /* margin: 0px 60px; */
+    /* justify-content: start; */
+    /* align-items: start; */
+    /* text-align: start; */
+  }
+
+  header .container .wrap-menu .img {
+    width: 50%;
+  }
+
+  header .container .wrap-menu .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    margin: 40px;
+  }
+
+  header .container .wrap-menu .menu > a {
+    margin-left: 8%;
+  }
+
+  .product .container .img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 100px;
+  }
+
+  .product .container .img > img {
+    width: 45%;
+  }
+
+  .product .container .img > p {
+    left: 10%;
+  }
+  .product .container .img > #dua {
+    top: 3%;
+    left: 53%;
+  }
+  .product .container .img > #tiga {
+    top: 55%;
+    /* left: 53%; */
+  }
+  .product .container .img > #empat {
+    top: 55%;
+    left: 53%;
+  }
+
+  .product .container .product-populer .t {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 600px;
+  }
+
+  .product .container .product-populer .wrap-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .product .container .product-populer .wrap-card .card {
+    width: 25%;
+  }
+
+  .testimoni {
+    background-position: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimoni .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin-right: 50%;
+    padding: 20px;
+  }
+
+  .testimoni .test .orang {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+
+  .testimoni .test .orang > p {
+    margin-top: 30px;
+    margin-left: -75px;
+    margin-bottom: 20px;
+  }
+  .testimoni .test .orang > h3 {
+    margin-top: 7px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+
+  footer {
+    display: flex;
+    width: 60%;
+    gap: 50px;
+  }
+
+  footer .text img {
+    width: 20%;
+  }
+
+  footer .text {
+    display: flex;
+    gap: 20px;
+  }
+}
